@@ -1,0 +1,25 @@
+<div class="card">
+  <img
+    class="card-img-top"
+    [src]="user.avatar_url"
+    alt="avatar"
+    height="250px"
+  />
+  <div class="card-body">
+    <h5 class="card-title">{{ user.name }}</h5>
+    <p class="m-0 my-1">
+      <span class="font-weight-bolder"> Bio: </span> {{ user.bio }}
+    </p>
+    <p class="m-0 my-1">
+      <span class="font-weight-bolder"> Company: </span>
+      {{ user.company }}
+    </p>
+    <p class="m-0 my-1">
+      <span class="font-weight-bolder"> Email: </span> {{ user.email }}
+    </p>
+    <p class="m-0 my-1">
+      <span class="font-weight-bolder"> Updated_at: </span>
+      {{ user.updated_at }}
+    </p>
+  </div>
+</div>

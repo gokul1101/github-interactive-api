@@ -1,0 +1,10 @@
+header {
+  height: 70px;
+}
+header nav ul .active {
+  border-bottom: 1px solid #fff;
+}
+header nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+}

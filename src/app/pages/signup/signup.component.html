@@ -1,0 +1,64 @@
+<div class="position-relative d-flex justify-content-center col-12 mt-3">
+  <div class="sign-in d-flex flex-column col-md-4 col-12 p-0 m-0">
+    <div class="sign-in-header bg-light">
+      <h4 class="text-primary text-uppercase text-center m-0 py-2">
+        sign up please
+      </h4>
+    </div>
+    <form
+      #signin="ngForm"
+      class="d-flex flex-column align-items-center pl-2 pr-3 mt-2"
+      (ngSubmit)="onSubmit(signin.value)"
+    >
+      <div
+        class="email w-100 d-flex align-items-center justify-content-around my-2"
+      >
+        <label class="col-3">Email</label>
+        <input
+          ngModel
+          class="form-control col-9"
+          type="text"
+          placeholder="Enter Email"
+          id="email"
+          name="email"
+        />
+      </div>
+      <div
+        class="password w-100 d-flex align-items-center justify-content-around my-2"
+      >
+        <label class="col-3">Password</label>
+        <input
+          ngModel
+          class="form-control col-9"
+          type="password"
+          placeholder="Enter Password"
+          id="password"
+          name="password"
+        />
+      </div>
+      <div
+        class="password w-100 d-flex align-items-center justify-content-around my-2"
+      >
+        <label class="col-3">Confirm Password</label>
+        <div class="d-flex flex-column col-9 p-0">
+          <input
+            ngModel
+            class="form-control"
+            type="password"
+            placeholder="Enter Password"
+            id="confirm_password"
+            name="confirm_password"
+          />
+          <p class="password-text m-0">
+            Minimum length of the password should be 6 or more
+          </p>
+        </div>
+      </div>
+      <div class="d-flex my-3">
+        <button type="submit" class="btn btn-primary text-uppercase">
+          Sign up
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

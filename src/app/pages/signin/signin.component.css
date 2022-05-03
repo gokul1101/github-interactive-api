@@ -1,0 +1,10 @@
+.sign-in {
+  border: 1px solid #cfcfcf;
+}
+.sign-in-header {
+  border-bottom: 1px solid #cfcfcf;
+}
+.password-text {
+  font-size: 12px;
+  color: #cfcfcf;
+}

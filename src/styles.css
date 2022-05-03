@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~ngx-toastr/toastr";
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 8px !important;
+}
+*::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+*::-webkit-scrollbar-track:hover {
+  background-color: #ffffff;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #4d4d4e;
+  border: 5px solid #e2e2e2;
+  border-radius: 16px;
+}

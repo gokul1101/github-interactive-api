@@ -1,0 +1,8 @@
+.repos {
+  height: 450px;
+  overflow-y: scroll;
+}
+.repo {
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+}
